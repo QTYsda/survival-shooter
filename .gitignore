@@ -1,0 +1,74 @@
+# Unity 工程通用忽略规则（来自 github/gitignore 的 Unity.gitignore）
+#
+# 这些目录是 Unity 自动生成的缓存，体积大且每台机器都会重建，不要提交
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.utmp/
+
+# 第三方素材：版权不属于本项目，不随仓库分发
+# 从 Unity 官方 Survival Shooter 教程导入，需要时请自行从教程包导入
+/[Aa]ssets/[Mm]odels/
+/[Aa]ssets/[Tt]extures/
+/[Aa]ssets/[Aa]udio/
+/[Aa]ssets/[Ff]onts/
+/[Aa]ssets/[Tt]extMesh [Pp]ro/
+/[Aa]ssets/_CompletedAssets/
+/[Aa]ssets/Tutorials-SurvivalShooter-Upgrade to 5.pdf
+
+# 资源文件本体和它的 .meta 必须成对提交，只有资源被忽略时 meta 才忽略
+!/[Aa]ssets/**/*.meta
+
+# 自动生成的 IDE 工程文件（Unity 会重新生成）
+.vs/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 崩溃报告
+sysinfo.txt
+
+# 打包产物
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Addressables / 其他工具生成的临时文件
+crashlytics-build.properties
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 放在最后：上面有一条 “!/Assets/**/*.meta” 的保留规则，写在它后面才会生效
+# 这些素材目录/文件不提交，它们对应的 .meta 也不要留下
+/[Aa]ssets/[Mm]odels.meta
+/[Aa]ssets/[Tt]extures.meta
+/[Aa]ssets/[Aa]udio.meta
+/[Aa]ssets/[Ff]onts.meta
+/[Aa]ssets/[Tt]extMesh [Pp]ro.meta
+/[Aa]ssets/_CompletedAssets.meta
+/[Aa]ssets/Tutorials-SurvivalShooter-Upgrade to 5.pdf.meta
