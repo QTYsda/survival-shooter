@@ -48,3 +48,9 @@ Assets/
 3. 点运行按钮即可游玩；`File > Build Settings` 里可以直接打包。
 
 仓库只包含 `Assets/` 和 `ProjectSettings/`，`Library/`、`Temp/`、`Logs/` 等 Unity 自动生成的目录没有提交，首次打开工程时 Unity 会自己重建。
+
+## 开源协议
+
+本仓库中的代码、场景、预制体与工程设置采用 **MIT 协议**开源，详见 [LICENSE](LICENSE)，署名 **游戏**。
+
+仓库**不包含**的美术、音效、字体等第三方素材版权归 Unity Technologies 所有，不受本协议约束，请勿从本仓库派生分发。
